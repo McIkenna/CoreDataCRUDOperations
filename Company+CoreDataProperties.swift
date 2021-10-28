@@ -17,6 +17,7 @@ extension Company {
     }
 
     @NSManaged public var companyName: String?
+    @NSManaged public var id: Float
     @NSManaged public var employee: NSSet?
 
 }

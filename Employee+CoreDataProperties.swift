@@ -16,9 +16,9 @@ extension Employee {
         return NSFetchRequest<Employee>(entityName: "Employee")
     }
 
-    @NSManaged public var name: String?
     @NSManaged public var address: String?
     @NSManaged public var id: Float
+    @NSManaged public var name: String?
     @NSManaged public var company: Company?
 
 }
